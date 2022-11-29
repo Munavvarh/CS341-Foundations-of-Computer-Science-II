@@ -1,0 +1,544 @@
+
+
+Project 1 for CS 341
+Section number: 007
+Semester: Fall 2022
+Written by: Munavvarhusain Bunglawala, mab265
+Instructor: Marvin Nakayama, marvin@njit.edu
+
+Do you want to enter a string (y/n)? : y
+please Enter a string: f8o9o@ab32cdef.com
+You Enterd : f8o9o@ab32cdef.com
+
+  -> q1
+f -> q2
+8 -> q2
+o -> q2
+9 -> q2
+o -> q2
+@ -> q3
+a -> q4
+b -> q4
+3 -> q4
+2 -> q4
+c -> q4
+d -> q4
+e -> q4
+f -> q4
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+
+***********Result***********
+
+your string  : f8o9o@ab32cdef.com
+Accepted!
+
+*****************************
+
+Please Enter a (y/n) : y
+please Enter a string: z@c.com
+You Enterd : z@c.com
+
+  -> q1
+z -> q2
+@ -> q3
+c -> q4
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+
+***********Result***********
+
+your string  : z@c.com
+Accepted!
+
+*****************************
+
+Please Enter a (y/n) : y
+please Enter a string: ba@ba.co
+You Enterd : ba@ba.co
+
+  -> q1
+b -> q2
+a -> q2
+@ -> q3
+b -> q4
+a -> q4
+. -> q5
+c -> q6
+o -> q7
+
+***********Result***********
+
+Your string : ba@ba.co
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: edfg@.com
+You Enterd : edfg@.com
+
+  -> q1
+e -> q2
+d -> q2
+f -> q2
+g -> q2
+@ -> q3
+. -> q9
+
+***********Result***********
+
+Your string : edfg@.com
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: web2web.a.c97c.com@j.k68c42.computer.com
+You Enterd : web2web.a.c97c.com@j.k68c42.computer.com
+
+  -> q1
+w -> q2
+e -> q2
+b -> q2
+2 -> q2
+w -> q2
+e -> q2
+b -> q2
+. -> q1
+a -> q2
+. -> q1
+c -> q2
+9 -> q2
+7 -> q2
+c -> q2
+. -> q1
+c -> q2
+o -> q2
+m -> q2
+@ -> q3
+j -> q4
+. -> q5
+k -> q4
+6 -> q4
+8 -> q4
+c -> q4
+4 -> q4
+2 -> q4
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+p -> q4
+u -> q4
+t -> q4
+e -> q4
+r -> q4
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+
+***********Result***********
+
+your string  : web2web.a.c97c.com@j.k68c42.computer.com
+Accepted!
+
+*****************************
+
+Please Enter a (y/n) : y
+please Enter a string: fo8o@goo2.com..com
+You Enterd : fo8o@goo2.com..com
+
+  -> q1
+f -> q2
+o -> q2
+8 -> q2
+o -> q2
+@ -> q3
+g -> q4
+o -> q4
+o -> q4
+2 -> q4
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+. -> q5
+. -> q9
+
+***********Result***********
+
+Your string : fo8o@goo2.com..com
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: ab67qe.@boom.com
+You Enterd : ab67qe.@boom.com
+
+  -> q1
+a -> q2
+b -> q2
+6 -> q2
+7 -> q2
+q -> q2
+e -> q2
+. -> q1
+@ -> q9
+
+***********Result***********
+
+Your string : ab67qe.@boom.com
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: edu2c@computer56.comp
+You Enterd : edu2c@computer56.comp
+
+  -> q1
+e -> q2
+d -> q2
+u -> q2
+2 -> q2
+c -> q2
+@ -> q3
+c -> q4
+o -> q4
+m -> q4
+p -> q4
+u -> q4
+t -> q4
+e -> q4
+r -> q4
+5 -> q4
+6 -> q4
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+p -> q4
+
+***********Result***********
+
+Your string : edu2c@computer56.comp
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: redblue@green..com
+You Enterd : redblue@green..com
+
+  -> q1
+r -> q2
+e -> q2
+d -> q2
+b -> q2
+l -> q2
+u -> q2
+e -> q2
+@ -> q3
+g -> q4
+r -> q4
+e -> q4
+e -> q4
+n -> q4
+. -> q5
+. -> q9
+
+***********Result***********
+
+Your string : redblue@green..com
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: random6@com
+You Enterd : random6@com
+
+  -> q1
+r -> q2
+a -> q2
+n -> q2
+d -> q2
+o -> q2
+m -> q2
+6 -> q2
+@ -> q3
+c -> q4
+o -> q4
+m -> q4
+
+***********Result***********
+
+Your string : random6@com
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: p654aa7e@a896.com.com
+You Enterd : p654aa7e@a896.com.com
+
+  -> q1
+p -> q2
+6 -> q2
+5 -> q2
+4 -> q2
+a -> q2
+a -> q2
+7 -> q2
+e -> q2
+@ -> q3
+a -> q4
+8 -> q4
+9 -> q4
+6 -> q4
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+
+***********Result***********
+
+your string  : p654aa7e@a896.com.com
+Accepted!
+
+*****************************
+
+Please Enter a (y/n) : y
+please Enter a string: www@com.coma
+You Enterd : www@com.coma
+
+  -> q1
+w -> q2
+w -> q2
+w -> q2
+@ -> q3
+c -> q4
+o -> q4
+m -> q4
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+a -> q4
+
+***********Result***********
+
+Your string : www@com.coma
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: wwwb@com.co
+You Enterd : wwwb@com.co
+
+  -> q1
+w -> q2
+w -> q2
+w -> q2
+b -> q2
+@ -> q3
+c -> q4
+o -> q4
+m -> q4
+. -> q5
+c -> q6
+o -> q7
+
+***********Result***********
+
+Your string : wwwb@com.co
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: 34big.com@bbdef29.com
+You Enterd : 34big.com@bbdef29.com
+
+  -> q1
+3 -> q9
+
+***********Result***********
+
+Your string : 34big.com@bbdef29.com
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: food@for.com@
+You Enterd : food@for.com@
+
+  -> q1
+f -> q2
+o -> q2
+o -> q2
+d -> q2
+@ -> q3
+f -> q4
+o -> q4
+r -> q4
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+@ -> q9
+
+***********Result***********
+
+Your string : food@for.com@
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: net.a.b.4c@comma3.com.com
+You Enterd : net.a.b.4c@comma3.com.com
+
+  -> q1
+n -> q2
+e -> q2
+t -> q2
+. -> q1
+a -> q2
+. -> q1
+b -> q2
+. -> q1
+4 -> q9
+
+***********Result***********
+
+Your string : net.a.b.4c@comma3.com.com
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: net84work.abb@common.6com.com
+You Enterd : net84work.abb@common.6com.com
+
+  -> q1
+n -> q2
+e -> q2
+t -> q2
+8 -> q2
+4 -> q2
+w -> q2
+o -> q2
+r -> q2
+k -> q2
+. -> q1
+a -> q2
+b -> q2
+b -> q2
+@ -> q3
+c -> q4
+o -> q4
+m -> q4
+m -> q4
+o -> q4
+n -> q4
+. -> q5
+6 -> q9
+
+***********Result***********
+
+Your string : net84work.abb@common.6com.com
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: @abcde.com
+You Enterd : @abcde.com
+
+  -> q1
+@ -> q9
+
+***********Result***********
+
+Your string : @abcde.com
+Rejected
+
+****************************
+
+Please Enter a (y/n) : y
+please Enter a string: people5.d7og.c8at@c.com3.com
+You Enterd : people5.d7og.c8at@c.com3.com
+
+  -> q1
+p -> q2
+e -> q2
+o -> q2
+p -> q2
+l -> q2
+e -> q2
+5 -> q2
+. -> q1
+d -> q2
+7 -> q2
+o -> q2
+g -> q2
+. -> q1
+c -> q2
+8 -> q2
+a -> q2
+t -> q2
+@ -> q3
+c -> q4
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+3 -> q4
+. -> q5
+c -> q6
+o -> q7
+m -> q8
+
+***********Result***********
+
+your string  : people5.d7og.c8at@c.com3.com
+Accepted!
+
+*****************************
+
+Please Enter a (y/n) : y
+please Enter a string: cable..cord@fort.com
+You Enterd : cable..cord@fort.com
+
+  -> q1
+c -> q2
+a -> q2
+b -> q2
+l -> q2
+e -> q2
+. -> q1
+. -> q9
+
+***********Result***********
+
+Your string : cable..cord@fort.com
+Rejected
+
+****************************
+
+Please Enter a (y/n) : n
+PS C:\Users\Muna\Desktop\Project 1 CS341>
